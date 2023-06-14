@@ -38,12 +38,12 @@ code {
 }
 
 .myborder {
-  border-bottom: solid 1px gray;
   padding-right: 35px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.7);
 }
 
 .card {
