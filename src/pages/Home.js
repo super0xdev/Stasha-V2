@@ -44,9 +44,9 @@ const Home = () => {
                         <div className='flex part1-but2'>Get Started with Building<MdOutlineKeyboardArrowRight /></div>
                     </div>
                 </div>
-                <div className='right1 relative'>
+                <div className='right1 relative self-center'>
                     <div className='ellipse2'></div>
-                    {/* <img src={ROT} style={{ zIndex: '-1' }} /> */}
+                    {/* <img alt='no img' src={ROT} style={{ zIndex: '-1' }} /> */}
                     <svg width="485" height="490" viewBox="0 0 485 490" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="493" height="490" fill="url(#pattern0)" />
                         <defs>
@@ -70,24 +70,24 @@ const Home = () => {
                 <div className='part3 w-full gap-12 pb-24 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 relative'>
                     <div className='card flex-col'>
                         <div className='justify-center'>Total Users</div>
-                        <img src={User} />
+                        <img alt='no img' src={User} />
                     </div>
                     <div className='card place-content-center'>
-                        <img src={Tech} />
+                        <img alt='no img' src={Tech} />
                         Our Technology
                     </div>
                     <div className='card flex-col'>
                         Avg. transaction fee
-                        <img src={Fee} />
+                        <img alt='no img' src={Fee} />
                     </div>
                     <div className='card place-content-center'>
-                        <img src={Sec} />
+                        <img alt='no img' src={Sec} />
                         Our Security
                     </div>
                 </div>
                 <div className='part4 w-full flex flex-col xl:flex-row relative py-12'>
                     <div className='self-center xl:absolute px-16' style={{ bottom: '-0px' }}>
-                        <img src={IPhone} />
+                        <img alt='no img' src={IPhone} />
                     </div>
                     <div className='w-1/2'></div>
                     <div className='w-full xl:w-1/2 px-20 pr-8'>
@@ -98,14 +98,14 @@ const Home = () => {
                         <div className='part4-join text-center xl:text-right pb-4'>Join the decentralized revolution and take control of your digital assets with the Stasha DEX Wallet app today!</div>
                         <div className='flex gap-10 place-content-center xl:float-right'>
                             <div className='part4-but flex-col sm:flex-row'>
-                                <img src={Play} style={{ height: '30px', alignSelf: 'center' }} />
+                                <img alt='no img' src={Play} style={{ height: '30px', alignSelf: 'center' }} />
                                 <div>
                                     <div className='part4-get'>GET IT ON</div>
                                     <div className='part4-play'>Google Play</div>
                                 </div>
                             </div>
                             <div className='part4-but flex-col sm:flex-row'>
-                                <img src={Apple} style={{ height: '30px', alignSelf: 'center' }} />
+                                <img alt='no img' src={Apple} style={{ height: '30px', alignSelf: 'center' }} />
                                 <div>
                                     <div className='part4-get'>Download on the</div>
                                     <div className='part4-play'>App Store</div>
@@ -137,17 +137,17 @@ const Home = () => {
                             ecosystem.map((item, id) => (
                                 <div className='part6-item flex flex-col relative'>
                                     <div className='flex gap-4 pl-3'>
-                                        <img src={`${item.eco}`} />
+                                        <img alt='no img' src={`${item.eco}`} />
                                         <div className='part6-item-title'>{item.title}</div>
                                     </div>
                                     <div className='part6-item-body'>{item.body}</div>
-                                    {id != 3 ? <div className='flex part6-item-footer items-center absolute bottom-6'>
+                                    {id !== 3 ? <div className='flex part6-item-footer items-center absolute bottom-6'>
                                         <div>Explore</div>
                                         <HiArrowRight />
                                     </div> : <div className='flex part6-item-footer items-center absolute bottom-6 gap-4'>
-                                        <img src={Wallet1} />
-                                        <img src={Wallet2} />
-                                        <img src={Wallet3} /></div>}
+                                        <img alt='no img' src={Wallet1} />
+                                        <img alt='no img' src={Wallet2} />
+                                        <img alt='no img' src={Wallet3} /></div>}
                                 </div>
                             ))
                         }
@@ -181,9 +181,9 @@ const Home = () => {
                 </div>
                 <div className='flex place-content-center w-full xl:w-1/2 relative'>
                     <div className='flex relative h-80 w-full sm:w-2/3 xl:w-full'>
-                        <img src={Right1} className='flex absolute' style={{ right: '100px' }} />
-                        <img src={Right2} className='absolute' style={{ right: '250px', top: '120px' }} />
-                        <img src={Right3} className='absolute' style={{ right: '50px', top: '200px' }} />
+                        <img alt='no img' src={Right1} className='flex absolute' style={{ right: '100px' }} />
+                        <img alt='no img' src={Right2} className='absolute' style={{ right: '250px', top: '120px' }} />
+                        <img alt='no img' src={Right3} className='absolute' style={{ right: '50px', top: '200px' }} />
                     </div>
                 </div>
             </div>
@@ -198,8 +198,8 @@ const Home = () => {
                 </div>
                 <div className='flex w-full relative h-56 lg:w-1/2 lg:p-0'>
                     <div className='flex relative w-full h-56 sm:w-5/6 lg:w-full'>
-                        <img src={ComR} className='absolute' style={{ right: '0px' }} />
-                        <img src={ComL} className='absolute' style={{ left: '30px', top: '100px' }} />
+                        <img alt='no img' src={ComR} className='absolute' style={{ right: '0px' }} />
+                        <img alt='no img' src={ComL} className='absolute' style={{ left: '30px', top: '100px' }} />
                     </div>
                 </div>
             </div>
@@ -213,10 +213,10 @@ const Home = () => {
                     <div className='part5-title text-center lg:text-right'>Stasha Academy</div>
                     <div className='part5-body text-center lg:text-right'>Stasha Crypto Academy is your gateway to mastering the world of cryptocurrencies and blockchain technology.</div>
                 </div>
-                <img src={Academy} className='w-1/6 self-center' />
+                <img alt='no img' src={Academy} className='w-1/6 self-center' />
             </div>
             <div className='part10 flex flex-col lg:flex-row'>
-                <img src={Books} className='w-1/6 self-center' />
+                <img alt='no img' src={Books} className='w-1/6 self-center' />
                 <div className='flex flex-col gap-4 w-full lg:w-2/3'>
                     <div className='part5-title text-center lg:text-left'>Stasha Dictionary</div>
                     <div className='part5-body text-center lg:text-left'>Discover the language of the crypto world with the Stasha Crypto Dictionary. </div>
@@ -255,12 +255,12 @@ const Home = () => {
             </div>
             <div className='part13'>
                 <div className='part5-title text-center'>Official Partners</div>
-                <div className='grid grid-cols-3 sm:grid-cols-5 place-content-center gap-16'>
-                    <img src={Yahoo} />
-                    <img src={Marketwatch} />
-                    <img src={Bloomberg} />
-                    <img src={Techbullion} />
-                    <img src={Nasdaq} />
+                <div className='grid grid-cols-1 sm:grid-cols-5 place-content-center place-items-center gap-16'>
+                    <img alt='no img' src={Yahoo} />
+                    <img alt='no img' src={Marketwatch} />
+                    <img alt='no img' src={Bloomberg} />
+                    <img alt='no img' src={Techbullion} />
+                    <img alt='no img' src={Nasdaq} />
                 </div>
             </div>
             <div className='part14'>

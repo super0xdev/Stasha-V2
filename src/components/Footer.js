@@ -8,10 +8,10 @@ const Footer = () => {
                 <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                     <div className="lg:flex lg:justify-between gap-4">
                         <div className="mb-6 lg:mb-0">
-                            <a className="flex items-center pb-4">
+                            <div className="flex items-center pb-4">
                                 <img src="./logo.png" className="mr-3" alt="Flowbite Logo" />
                                 <span className="fredoka self-center text-4xl whitespace-nowrapn">Stasha</span>
-                            </a>
+                            </div>
                             <div className='grid grid-cols-4 gap-8 w-[180px] lg:w-full self-center'>
                                 <FaTelegramPlane style={{ backgroundColor: '00ACFF' }} className="p-2 text-4xl rounded-md" />
                                 <FaTwitter style={{ backgroundColor: '00ACFF' }} className="p-2 text-4xl rounded-md" />
@@ -24,31 +24,31 @@ const Footer = () => {
                                 <h2 className="footer-title mb-6">Products</h2>
                                 <ul className="footer-body flex flex-col gap-4">
                                     <li>
-                                        <a>Stasha Smartchain</a>
+                                        <div>Stasha Smartchain</div>
                                     </li>
                                     <li>
-                                        <a>Stasha Exchanges</a>
+                                        <div>Stasha Exchanges</div>
                                     </li>
                                     <li>
-                                        <a>Stasha Block Explorer</a>
+                                        <div>Stasha Block Explorer</div>
                                     </li>
                                     <li>
-                                        <a>Stasha Wallet</a>
+                                        <div>Stasha Wallet</div>
                                     </li>
                                     <li>
-                                        <a>Alterverse</a>
+                                        <div>Alterverse</div>
                                     </li>
                                     <li>
-                                        <a>NFT Marketplace</a>
+                                        <div>NFT Marketplace</div>
                                     </li>
                                     <li>
-                                        <a>Stasha Coin</a>
+                                        <div>Stasha Coin</div>
                                     </li>
                                     <li>
-                                        <a>Staking Platform</a>
+                                        <div>Staking Platform</div>
                                     </li>
                                     <li>
-                                        <a>Multi-sig Wallet</a>
+                                        <div>Multi-sig Wallet</div>
                                     </li>
                                 </ul>
                             </div>
@@ -56,22 +56,22 @@ const Footer = () => {
                                 <h2 className="footer-title mb-6">Quick Links</h2>
                                 <ul className="footer-body flex flex-col gap-4">
                                     <li>
-                                        <a>About Us</a>
+                                        <div>About Us</div>
                                     </li>
                                     <li>
-                                        <a>Partners</a>
+                                        <div>Partners</div>
                                     </li>
                                     <li>
-                                        <a>Blogs</a>
+                                        <div>Blogs</div>
                                     </li>
                                     <li>
-                                        <a>Resources</a>
+                                        <div>Resources</div>
                                     </li>
                                     <li>
-                                        <a>FAQs</a>
+                                        <div>FAQs</div>
                                     </li>
                                     <li>
-                                        <a>Career</a>
+                                        <div>Career</div>
                                     </li>
                                 </ul>
                             </div>
@@ -79,10 +79,10 @@ const Footer = () => {
                                 <h2 className="footer-title mb-6">Dev</h2>
                                 <ul className="footer-body flex flex-col gap-4">
                                     <li>
-                                        <a>Documentation</a>
+                                        <div>Documentation</div>
                                     </li>
                                     <li>
-                                        <a>Whitepaper</a>
+                                        <div>Whitepaper</div>
                                     </li>
                                 </ul>
                             </div>
@@ -90,13 +90,13 @@ const Footer = () => {
                                 <h2 className="footer-title mb-6">Support</h2>
                                 <ul className="footer-body flex flex-col gap-4">
                                     <li>
-                                        <a>Terms of Use</a>
+                                        <div>Terms of Use</div>
                                     </li>
                                     <li>
-                                        <a>Privacy Policy</a>
+                                        <div>Privacy Policy</div>
                                     </li>
                                     <li>
-                                        <a>Contact Us</a>
+                                        <div>Contact Us</div>
                                     </li>
                                 </ul>
                             </div>

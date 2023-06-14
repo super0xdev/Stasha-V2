@@ -14,14 +14,14 @@ const Accordion = () => {
                     <h2>
                         <div onClick={() => setIndex(ind)} className="flex items-center cursor-pointer justify-between w-full p-5 font-medium text-left text-gray-500 focus:ring-4 focus:ring-gray-200">
                             <span className='acc-title'>{item.title}</span>
-                            <HiArrowRight className={index == ind ? 'text-blue-400' : 'text-white'} />
+                            <HiArrowRight className={index === ind ? 'text-blue-400' : 'text-white'} />
                         </div>
                     </h2>
-                    <div className={index == ind ? 'block' : 'hidden'}>
+                    <div className={index === ind ? 'block' : 'hidden'}>
                         <div className="acc-body p-5">
                             {item.body.split('\n').map((text, index) => (
                                 <React.Fragment key={index}>
-                                    {index != 0 ? <br /> : <></>}
+                                    {index !== 0 ? <br /> : <></>}
                                     {text}
                                 </React.Fragment>
                             ))}
