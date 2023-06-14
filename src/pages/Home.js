@@ -40,7 +40,7 @@ const Home = () => {
                     <div className="part5-title relative">Unleashing the power of blockchain for a better tomorrow.</div>
                     <div className="part5-body">Embrace a World of Infinite Possibilities in Blockchain Innovation and
                         Empowerment for a Brighter Future!</div>
-                    <div className="flex self-center flex-col xl:flex-row">
+                    <div className="flex flex-col w-[380px] text-center xl:w-full xl:flex-row">
                         <div className='part1-but'>Explore Ecosystem</div>
                         <div className='flex part1-but2'>Get Started with Building<MdOutlineKeyboardArrowRight /></div>
                     </div>

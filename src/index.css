@@ -64,9 +64,8 @@ code {
 }
 
 .part1-but {
-  align-self: center;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 60px;
+  padding-right: 60px;
   padding-top: 20px;
   padding-bottom: 20px;
   color: white;
@@ -80,7 +79,7 @@ code {
 
 .part1-but2 {
   align-items: center;
-  padding-left: 70px;
+  padding-left: 60px;
   padding-right: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
