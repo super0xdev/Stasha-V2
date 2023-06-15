@@ -197,7 +197,7 @@ const Home = () => {
             <div className='part10 flex relative flex-col lg:flex-row gap-8'>
                 <div className='rectangle2 absolute'></div>
                 <div className='flex relative w-full lg:w-1/2 justify-center lg:justify-start'>
-                    <div className='part10-but self-center'>Get Started</div>
+                    <a href='https://Stasha.academy' className='part10-but self-center'>Get Started</a>
                 </div>
                 <div className='flex flex-col lg:flex-row gap-8'>
                     <div className='flex flex-col w-full z-10'>
@@ -216,10 +216,10 @@ const Home = () => {
                         <div className='part5-body text-center lg:text-left'>Discover the language of the crypto world with the Stasha Crypto Dictionary. </div>
                     </div>
                 </div>
-                <div className='flex flex-row relative w-full lg:w-1/2 justify-center lg:justify-end'>
-                    <div className='part10-but'>View Dictionary</div>
+                <div className='flex flex-row relative w-full lg:w-1/2 justify-center lg:justify-end pb-2'>
+                    <a href='https://dictionary.stasha.io' className='part10-but'>View Dictionary</a>
                 </div>
-                <div className='part10-end md:absolute flex items-center gap-2 left-0 md:right-1 bottom-0'>Learn more<HiArrowRight /></div>
+                <div className='part10-end md:absolute flex items-center gap-2 lg:right-0 bottom-0'>Learn more<HiArrowRight /></div>
             </div>
             <div className='part11 flex flex-col sm:flex-row'>
                 <div className='w-full sm:w-2/3'>
