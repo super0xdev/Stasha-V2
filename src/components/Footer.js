@@ -12,7 +12,7 @@ const Footer = () => {
                                 <img src="./logo.png" className="mr-3" alt="Flowbite Logo" />
                                 <span className="fredoka self-center text-4xl whitespace-nowrapn">Stasha</span>
                             </div>
-                            <div className='grid grid-cols-4 gap-8 w-[180px] lg:w-full self-center'>
+                            <div className='grid grid-cols-4 gap-4 w-[180px] lg:w-full self-center'>
                                 <FaTelegramPlane style={{ backgroundColor: '00ACFF' }} className="p-2 text-4xl rounded-md" />
                                 <FaTwitter style={{ backgroundColor: '00ACFF' }} className="p-2 text-4xl rounded-md" />
                                 <FaFacebookF style={{ backgroundColor: '00ACFF' }} className="p-2 text-4xl rounded-md" />

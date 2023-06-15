@@ -64,6 +64,7 @@ code {
 }
 
 .part1-but {
+  cursor: pointer;
   padding-left: 60px;
   padding-right: 60px;
   padding-top: 20px;
@@ -78,6 +79,7 @@ code {
 }
 
 .part1-but2 {
+  cursor: pointer;
   align-items: center;
   padding-left: 60px;
   padding-right: 40px;
@@ -120,6 +122,7 @@ code {
 }
 
 .part4-but {
+  cursor: pointer;
   display: flex;
   gap: 12px;
   width: 180px;
@@ -166,6 +169,7 @@ code {
 }
 
 .part5-but {
+  cursor: pointer;
   border: solid 1px #00ACFF;
   border-radius: 5px;
   padding-left: 50px;
@@ -207,11 +211,13 @@ code {
 }
 
 .part6-item-footer {
+  cursor: pointer;
   padding-left: 15px;
   color: #00ACFF;
 }
 
 .part7-left {
+  cursor: pointer;
   align-self: center;
   padding-left: 50px;
   padding-right: 50px;
@@ -227,6 +233,7 @@ code {
 }
 
 .part7-right {
+  cursor: pointer;
   align-self: center;
   padding-left: 50px;
   padding-right: 50px;
@@ -243,6 +250,7 @@ code {
 }
 
 .part8-but {
+  cursor: pointer;
   padding-left: 60px;
   padding-right: 60px;
   padding-top: 15px;
@@ -306,6 +314,7 @@ code {
 }
 
 .part10-but {
+  cursor: pointer;
   align-self: center;
   padding-left: 70px;
   padding-right: 70px;
@@ -344,6 +353,7 @@ code {
 }
 
 .part12-but {
+  cursor: pointer;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 20px;

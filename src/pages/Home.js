@@ -5,7 +5,7 @@ import { AiFillInstagram } from 'react-icons/ai';
 
 import Accordion from '../components/Accordion';
 
-import ROT from '../images/ROT.png';
+import ROT from '../images/ROT1.gif';
 import User from '../images/user.png';
 import Tech from '../images/tech.png';
 import Fee from '../images/fee.png';
@@ -35,17 +35,17 @@ const Home = () => {
     return (
         <div className='flex flex-col gap-10 sm:mt-12 md:mt-0'>
             <div className="part1 w-full flex flex-col lg:flex-row">
-                <div className="left1 w-full lg:w-3/4 flex flex-col gap-4 pt-12 relative">
+                <div className="left1 w-full flex flex-col gap-4 pt-12 relative">
                     <div className='ellipse1'></div>
                     <div className="part5-title relative">Unleashing the power of blockchain for a better tomorrow.</div>
-                    <div className="part5-body">Embrace a World of Infinite Possibilities in Blockchain Innovation and
+                    <div className="part5-body pt-8">Embrace a World of Infinite Possibilities in Blockchain Innovation and
                         Empowerment for a Brighter Future!</div>
                     <div className="flex flex-col w-[380px] text-center xl:w-full xl:flex-row">
                         <div className='part1-but'>Explore Ecosystem</div>
                         <div className='flex part1-but2'>Get Started with Building<MdOutlineKeyboardArrowRight /></div>
                     </div>
                 </div>
-                <div className='right1 relative self-center'>
+                <div className='right1 relative self-center w-[60%] right-[-40px]'>
                     <div className='ellipse2'></div>
                     <img alt='no img' src={ROT} style={{ zIndex: '-1' }} />
                 </div>
@@ -182,7 +182,7 @@ const Home = () => {
                 <div className='w-full lg:w-1/2'>
                     <div className='part9-head pb-2'>Accept crypto payments globally with StashaPay</div>
                     <div className='part9-body pr-4 pb-8'>Enjoy bordeless payments with Stasha Pay. Our solutionis user friendly, fast and secure.</div>
-                    <div className='part9-footer flex items-center gap-4'>
+                    <div className='cursor-pointer part9-footer flex items-center gap-4'>
                         <div>Get Started</div>
                         <HiArrowRight />
                     </div>
@@ -195,27 +195,31 @@ const Home = () => {
                 </div>
             </div>
             <div className='part10 flex relative flex-col lg:flex-row gap-8'>
-                <div className='rectangle2'></div>
-                <div className='flex                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     relative w-full lg:w-1/4'>
+                <div className='rectangle2 absolute'></div>
+                <div className='flex relative w-full lg:w-1/2 justify-center lg:justify-start'>
                     <div className='part10-but self-center'>Get Started</div>
-                    <div className='part10-end top-1 md:absolute' style={{ bottom: '0px' }}>Learn more</div>
                 </div>
-                <div className='flex flex-col gap-8 w-full lg:w-7/12'>
-                    <div className='part5-title text-center lg:text-right'>Stasha Academy</div>
-                    <div className='part5-body text-center lg:text-right'>Stasha Crypto Academy is your gateway to mastering the world of cryptocurrencies and blockchain technology.</div>
+                <div className='flex flex-col lg:flex-row gap-8'>
+                    <div className='flex flex-col w-full z-10'>
+                        <div className='part5-title text-center lg:text-right'>Stasha Academy</div>
+                        <div className='part5-body text-center lg:text-right'>Stasha Crypto Academy is your gateway to mastering the world of cryptocurrencies and blockchain technology.</div>
+                    </div>
+                    <img alt='no img' src={Academy} className='w-1/6 self-center' />
                 </div>
-                <img alt='no img' src={Academy} className='w-1/6 self-center' />
+                <div className='part10-end md:absolute' style={{ bottom: '0px' }}>Learn more</div>
             </div>
-            <div className='part10 flex flex-col lg:flex-row'>
-                <img alt='no img' src={Books} className='w-1/6 self-center' />
-                <div className='flex flex-col gap-4 w-full lg:w-2/3'>
-                    <div className='part5-title text-center lg:text-left'>Stasha Dictionary</div>
-                    <div className='part5-body text-center lg:text-left'>Discover the language of the crypto world with the Stasha Crypto Dictionary. </div>
+            <div className='part10 flex flex-col lg:flex-row relative'>
+                <div className='flex flex-col lg:flex-row gap-8'>
+                    <img alt='no img' src={Books} className='w-1/6 self-center' />
+                    <div className='flex flex-col gap-4 w-full'>
+                        <div className='part5-title text-center lg:text-left'>Stasha Dictionary</div>
+                        <div className='part5-body text-center lg:text-left'>Discover the language of the crypto world with the Stasha Crypto Dictionary. </div>
+                    </div>
                 </div>
-                <div className='flex flex-row relative w-full lg:w-1/3'>
+                <div className='flex flex-row relative w-full lg:w-1/2 justify-center lg:justify-end'>
                     <div className='part10-but'>View Dictionary</div>
-                    <div className='part10-end absolute flex items-center gap-2' style={{ bottom: '0px' }}>Learn more<HiArrowRight /></div>
                 </div>
+                <div className='part10-end md:absolute flex items-center gap-2 left-0 md:right-1 bottom-0'>Learn more<HiArrowRight /></div>
             </div>
             <div className='part11 flex flex-col sm:flex-row'>
                 <div className='w-full sm:w-2/3'>
@@ -229,11 +233,11 @@ const Home = () => {
                     <AiFillInstagram style={{ backgroundColor: '00ACFF' }} className="p-2 text-4xl rounded-md" />
                 </div>
             </div>
-            <div className='part12 flex flex-col md:flex-row relative pt-8'>
+            <div className='part12 flex flex-col md:flex-row relative py-12'>
                 <div className='ellipse5'></div>
                 <div className='w-full md:w-1/3 relative'>
                     <div className='part5-title text-center lg:text-left'>Frequently Asked Questions</div>
-                    <div className='part5-body text-center lg:text-left pb-8'>Find out all the basics about Stasha</div>
+                    <div className='part5-body text-center lg:text-left pb-24'>Find out all the basics about Stasha</div>
                     <div className='flex flex-col'>
                         <div className='part12-quest text-center lg:text-left'>Do you have questions?</div>
                         <div className='part12-but self-center lg:self-start'>Ask Us</div>
@@ -246,7 +250,7 @@ const Home = () => {
             </div>
             <div className='part13'>
                 <div className='part5-title text-center'>Official Partners</div>
-                <div className='grid grid-cols-1 sm:grid-cols-5 place-content-center place-items-center gap-16'>
+                <div className='grid grid-cols-1 sm:grid-cols-5 place-content-center place-items-center gap-4'>
                     <img alt='no img' src={Yahoo} />
                     <img alt='no img' src={Marketwatch} />
                     <img alt='no img' src={Bloomberg} />

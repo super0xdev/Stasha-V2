@@ -6,7 +6,7 @@ import { HiArrowRight } from 'react-icons/hi';
 import { faq } from '../global/constant';
 
 const Accordion = () => {
-    const [index, setIndex] = useState(-1);
+    const [index, setIndex] = useState(0);
     return (
         <div className='relative'>
             {faq.map((item, ind) => (
