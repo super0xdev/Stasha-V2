@@ -24,9 +24,6 @@ code {
 .App {
   width: 100%;
   max-width: 1280px;
-  padding-left: 40px;
-  padding-right: 40px;
-
 }
 
 .fredoka {
@@ -38,35 +35,31 @@ code {
 }
 
 .myborder {
-  padding-right: 35px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  border-bottom: 1px solid rgba(51, 51, 51, 0.7);
+  border-bottom: 1px solid rgba(0, 172, 255, 0.28);
 }
 
 .card {
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-bottom: 30px;
   padding-top: 30px;
   background: rgba(19, 19, 19, 0.5);
   border-radius: 20px;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
 
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  height: 130px;
 }
 
 .part1-but {
   cursor: pointer;
-  padding-left: 60px;
-  padding-right: 60px;
   padding-top: 20px;
   padding-bottom: 20px;
   color: white;
@@ -81,8 +74,6 @@ code {
 .part1-but2 {
   cursor: pointer;
   align-items: center;
-  padding-left: 60px;
-  padding-right: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
   color: white;
@@ -103,7 +94,6 @@ code {
   font-family: 'Fredoka';
   font-style: normal;
   font-weight: 500;
-  font-size: 45px;
 }
 
 .part4-dex {
@@ -111,14 +101,12 @@ code {
   font-family: 'Fredoka';
   font-style: normal;
   font-weight: 500;
-  font-size: 45px;
 }
 
 .part4-join {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
 }
 
 .part4-but {
@@ -149,21 +137,18 @@ code {
   font-family: 'Fredoka';
   font-style: normal;
   font-weight: 900;
-  font-size: 45px;
 }
 
 .part5-title {
   font-family: 'Fredoka';
   font-style: normal;
   font-weight: 900;
-  font-size: 45px;
 }
 
 .part5-body {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 23px;
   color: #9c9c9c;
 }
 
@@ -191,7 +176,6 @@ code {
 }
 
 .part6-item {
-  height: 190px;
   background: rgba(19, 19, 19, 0.5);
   border-radius: 20px;
   padding-left: 5px;
@@ -226,8 +210,8 @@ code {
 .part7-left {
   cursor: pointer;
   align-self: center;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
   color: white;
@@ -236,14 +220,13 @@ code {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: 22px;
 }
 
 .part7-right {
   cursor: pointer;
   align-self: center;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
   color: #00ACFF;
@@ -253,13 +236,12 @@ code {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: 22px;
 }
 
 .part8-but {
   cursor: pointer;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
   padding-top: 15px;
   padding-bottom: 15px;
   background: rgba(19, 19, 19, 0.5);
@@ -290,21 +272,20 @@ code {
   background: linear-gradient(270deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 172, 255, 0.135) 100%);
   border-radius: 45px;
 
-  padding: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .part9-head {
   font-family: 'Fredoka';
   font-style: normal;
   font-weight: 900;
-  font-size: 45px;
 }
 
 .part9-body {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 18px
 }
 
 .part9-footer {

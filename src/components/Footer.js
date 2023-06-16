@@ -7,7 +7,7 @@ const Footer = () => {
             <footer className="bg-black">
                 <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                     <div className="lg:flex lg:justify-between gap-4">
-                        <div className="mb-6 lg:mb-0">
+                        <div className="hidden md:block mb-6 lg:mb-0">
                             <div className="flex items-center pb-4">
                                 <img src="./logo.png" className="mr-3" alt="Flowbite Logo" />
                                 <span className="fredoka self-center text-4xl whitespace-nowrapn">Stasha</span>
