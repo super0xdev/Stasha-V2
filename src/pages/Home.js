@@ -38,17 +38,17 @@ const Home = () => {
             <div className="part1 w-full flex flex-col">
                 <div className="left1 w-full flex flex-col md:flex-row pt-12 relative">
                     <div className='flex flex-col'>
-                        <div className='ellipse1'></div>
+                        <div className='block md:ellipse1'></div>
                         <div className="headers text-center text-[25px] md:text-left md:text-[45px] relative">Unleashing the power of blockchain for a better tomorrow</div>
                         <div className="part5-body text-center sm:text-left text-[12px] sm:text-[23px] sm:pt-8">Embrace a World of Infinite Possibilities in Blockchain Innovation and
                             Empowerment for a Brighter Future!</div>
                     </div>
                     <div className='right1 relative self-center w-[60%]'>
-                        <div className='ellipse2'></div>
+                        <div className='ellipse2' style={{ left: '-150px', bottom: '-70px' }}></div>
                         <img alt='no img' src={ROT} className='relative md:top-[-150px] md:absolute' />
                     </div>
                 </div>
-                <div className="flex md:gap-4 flex-col md:w-full self-center text-center md:flex-row pt-0 md:pt-8">
+                <div className="flex md:gap-4 flex-col md:w-full self-center text-center md:flex-row pt-0 md:pt-8 relative md:pb-12">
                     <div className='md:hidden flex part1-but2 text-[14px] gap-1'>Get Started with Building<MdOutlineKeyboardArrowRight className='text-xl' /></div>
                     <div className='part1-but text-[14px] mx-2 md:text-[22px] md:px-12'>Explore Ecosystem</div>
                     <div className='hidden md:flex part1-but2 md:px-12'>Get Started with Building<MdOutlineKeyboardArrowRight /></div>
@@ -204,48 +204,53 @@ const Home = () => {
                 <div className='w-full xl:w-1/2'>
                     <div className='headers text-[25px] md:text-[45px] text-center xl:text-left'>Stasha Coin $STC</div>
                     <div className='part5-body text-center xl:text-left pb-6'>Stasha Coin is a revolutionary digital currency built on the robust foundations of Binance Smartchain.</div>
-                    <div className='hidden xl:flex gap-4 flex-col sm:flex-row'>
+                    <div className='hidden xl:justify-start md:justify-center md:flex gap-4 flex-col sm:flex-row'>
                         <div className='part8-but'>
-                            <div className='part8-but-head'>Current Sale Price</div>
-                            <div className='part8-but-body'>$0.0050</div>
+                            <div className='part8-but-head text-[14px]'>Current Sale Price</div>
+                            <div className='part8-but-body text-[45px]'>$0.0050</div>
                         </div>
                         <div className='part8-but'>
-                            <div className='part8-but-head'>Token Listing Price</div>
-                            <div className='part8-but-body'>$0.40</div>
+                            <div className='part8-but-head text-[14px]'>Token Listing Price</div>
+                            <div className='part8-but-body text-[45px]'>$0.40</div>
                         </div>
                     </div>
                 </div>
                 <div className='flex place-content-center w-full xl:w-1/2 relative'>
                     <div className='flex relative h-80 w-full sm:w-2/3 xl:w-full'>
-                        <img alt='no img' src={Right1} className='flex absolute' style={{ right: '100px' }} />
-                        <img alt='no img' src={Right2} className='absolute' style={{ right: '250px', top: '120px' }} />
-                        <img alt='no img' src={Right3} className='absolute' style={{ right: '50px', top: '200px' }} />
+                        <img alt='no img' src={Right1} className='hidden md:flex absolute' style={{ right: '100px' }} />
+                        <img alt='no img' src={Right2} className='hidden md:block absolute' style={{ right: '250px', top: '120px' }} />
+                        <img alt='no img' src={Right3} className='hidden md:block absolute' style={{ right: '50px', top: '200px' }} />
+                        <img alt='no img' src={Right1} className='md:hidden flex absolute' style={{ left: '40%', top: '30px', width: '120px' }} />
+                        <img alt='no img' src={Right2} className='md:hidden absolute' style={{ left: '20%', top: '120px', width: '80px' }} />
+                        <img alt='no img' src={Right3} className='md:hidden absolute' style={{ left: '60%', top: '150px', width: '70px' }} />
                     </div>
                 </div>
                 <div className='flex md:hidden gap-4 self-center'>
-                    <div className='part8-but' style={{ paddingLeft: '30px', paddingRight: '30px' }}>
-                        <div className='part8-but-head'>Current Sale Price</div>
+                    <div className='part8-but1'>
+                        <div className='part8-but-head text-[10px] md:text-[14px]'>Current Sale Price</div>
                         <div className='part8-but-body' style={{ fontSize: '25px' }}>$0.0050</div>
                     </div>
-                    <div className='part8-but' style={{ paddingLeft: '30px', paddingRight: '30px' }}>
-                        <div className='part8-but-head'>Token Listing Price</div>
+                    <div className='part8-but1'>
+                        <div className='part8-but-head text-[10px] md:text-[14px]' style={{ fontSize: '10px' }}>Token Listing Price</div>
                         <div className='part8-but-body' style={{ fontSize: '25px' }}>$0.40</div>
                     </div>
                 </div>
             </div>
             <div className='part9 flex flex-col px-4 md:px-7 lg:flex-row'>
                 <div className='w-full lg:w-1/2'>
-                    <div className='part9-head pb-2 text-[25px] md:text-[45px] text-center md:text-left'>Accept crypto payments globally with StashaPay</div>
-                    <div className='part9-body pr-4 pb-8 text-[12px] md:text-[18px] text-center md:text-left'>Enjoy bordeless payments with Stasha Pay. Our solutionis user friendly, fast and secure.</div>
+                    <div className='part9-head pb-2 text-[18px] mo:text-[25px] md:text-[45px] text-center md:text-left'>Accept crypto payments globally with StashaPay</div>
+                    <div className='part9-body pr-4 pb-8 text-[10px] mo:text-[12px] md:text-[18px] text-center md:text-left'>Enjoy bordeless payments with Stasha Pay. Our solutionis user friendly, fast and secure.</div>
                     <div className='cursor-pointer justify-center md:justify-start part9-footer flex items-center gap-4'>
                         <div>Get Started</div>
                         <HiArrowRight className='hidden md:block' />
                     </div>
                 </div>
-                <div className='flex w-full relative h-56 lg:w-1/2 lg:p-0'>
+                <div className='flex w-full relative h-56 lg:w-1/2 lg:p-0 pt-16 md:pt-0'>
                     <div className='flex relative w-full h-56 sm:w-5/6 lg:w-full'>
-                        <img alt='no img' src={ComR} className='absolute w-2/3 md:w-2/3' style={{ right: '0px' }} />
-                        <img alt='no img' src={ComL} className='absolute w-2/3 md:w-1/2' style={{ left: '30px', top: '80px' }} />
+                        <img alt='no img' src={ComR} className='hidden mo:block absolute w-2/3 md:w-2/3' style={{ right: '0px' }} />
+                        <img alt='no img' src={ComL} className='hidden mo:block absolute w-2/3 md:w-1/2' style={{ left: '-20px', top: '80px' }} />
+                        <img alt='no img' src={ComR} className='absolute mo:hidden' style={{ right: '0px', width: '220px' }} />
+                        <img alt='no img' src={ComL} className='absolute mo:hidden' style={{ left: '20px', top: '60px', width: '160px' }} />
                     </div>
                 </div>
             </div>
@@ -279,7 +284,7 @@ const Home = () => {
                 </div>
                 <div className='block md:hidden self-center pb-8' style={{ color: '#00ACFF' }}>Learn more</div>
                 <div className='flex md:hidden relative w-full justify-center'>
-                    <a href='https://dictionary.stasha.io' className='part10-but self-center' style={{ fontSize: '14px' }}>View Dictionary</a>
+                    <a href='https://dictionary.stasha.io' className='part10-but self-center' style={{ fontSize: '14px', paddingLeft: '40px', paddingRight: '40px' }}>View Dictionary</a>
                 </div>
                 <div className='part10-end md:absolute hidden md:flex items-center gap-2 lg:right-0 bottom-0'>Learn more<HiArrowRight /></div>
             </div>
@@ -297,16 +302,17 @@ const Home = () => {
             </div>
             <div className='part12 flex flex-col md:flex-row relative py-12'>
                 <div className='hidden md:ellipse5'></div>
-                <div className='w-full md:w-1/3 relative'>
+                <div className='w-full md:w-1/3 relative pb-4 md:pb-0'>
                     <div className='part5-title text-[25px] md:text-[45px] text-center lg:text-left'>Frequently Asked Questions</div>
-                    <div className='part5-body text-center lg:text-left pb-24'>Find out all the basics about Stasha</div>
+                    <div className='part5-body text-center lg:text-left pb-6 md:pb-24'>Find out all the basics about Stasha</div>
                     <div className='flex flex-col'>
                         <div className='part12-quest text-center lg:text-left pb-4'>Do you have questions?</div>
-                        <div className='part12-but self-center lg:self-start'>Ask Us</div>
+                        <div className='hidden md:block part12-but self-center lg:self-start'>Ask Us</div>
+                        <div className='md:hidden part12-but self-center lg:self-start' style={{ paddingLeft: '40px', paddingRight: '40px', paddingTop: '15px', paddingBottom: '15px' }}>Ask Us</div>
                     </div>
                 </div>
                 <div className='w-full md:w-2/3 relative'>
-                    <div className='ellipse6'></div>
+                    <div className='hidden md:ellipse6'></div>
                     <div className='hidden md:block'><Accordion /></div>
                     <div className='block md:hidden'><AccordionM /></div>
                 </div>
@@ -323,7 +329,7 @@ const Home = () => {
             </div>
             <div className='part14'>
                 <div className='part5-title text-[25px] md:text-[45px] text-center md:text-left'>Subscribe to our Newsletter</div>
-                <div className='part5-body text-[12px] md:text-[23px]'>Stay up to date for the latest crypto news, courses & more!</div>
+                <div className='part5-body text-[12px] md:text-[23px] text-center md:text-left'>Stay up to date for the latest crypto news, courses & more!</div>
             </div>
             <div className='flex flex-col md:flex-row self-center gap-4 pb-20'>
                 <input className='hidden md:block part14-input' placeholder='Enter Email' />
