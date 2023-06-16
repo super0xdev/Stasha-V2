@@ -4,6 +4,7 @@ import { FaFacebookF, FaTelegramPlane, FaTwitter } from 'react-icons/fa';
 import { AiFillInstagram } from 'react-icons/ai';
 
 import Accordion from '../components/Accordion';
+import AccordionM from '../components/AccordionM';
 
 import ROT from '../images/ROT1.gif';
 import User from '../images/user.png';
@@ -47,9 +48,9 @@ const Home = () => {
                         <img alt='no img' src={ROT} className='relative md:top-[-150px] md:absolute' />
                     </div>
                 </div>
-                <div className="flex md:gap-4 flex-col w-[240px] self-center text-center md:w-full md:flex-row pt-0 md:pt-8">
-                    <div className='md:hidden flex part1-but2 w-[280px]'>Get Started with Building<MdOutlineKeyboardArrowRight /></div>
-                    <div className='part1-but md:px-12'>Explore Ecosystem</div>
+                <div className="flex md:gap-4 flex-col md:w-full self-center text-center md:flex-row pt-0 md:pt-8">
+                    <div className='md:hidden flex part1-but2 text-[14px] gap-1'>Get Started with Building<MdOutlineKeyboardArrowRight className='text-xl' /></div>
+                    <div className='part1-but text-[14px] mx-2 md:text-[22px] md:px-12'>Explore Ecosystem</div>
                     <div className='hidden md:flex part1-but2 md:px-12'>Get Started with Building<MdOutlineKeyboardArrowRight /></div>
                 </div>
             </div>
@@ -91,7 +92,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className='part4 w-full flex flex-col xl:flex-row relative py-12'>
+                <div className='part4 w-full flex flex-col xl:flex-row relative pt-12 pb:pb-12'>
                     <div className='block md:hidden w-full px-4'>
                         <div className='text-center'>
                             <span className='part4-stasha text-[25px]'>Stasha</span>
@@ -158,13 +159,14 @@ const Home = () => {
             <div className='part6 text-center'>
                 <div className='headers text-[25px] md:text-[45px]'>Stasha Ecosystem</div>
                 <div className='pb-6 relative'>
-                    <div className='ellipse3'></div>
-                    <div className='ellipse4'></div>
+                    <div className='hidden md:ellipse3'></div>
+                    <div className='hidden md:ellipse4'></div>
+                    <div className='absolute' style={{ background: 'rgba(0, 172, 255, 0.2)', filter: 'blur(250px)', width: '450px', height: '650px' }}></div>
                     <div className='part5-body pb-12 relative'>Start to explore a wide variety of Decentralized applications brought to you by Stasha.</div>
                     <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-x-6 gap-y-0 md:gap-y-12 relative'>
                         {
                             ecosystem.map((item, id) => (
-                                <div className='part6-item flex flex-col relative justify-between'>
+                                <div className='part6-item flex flex-col relative justify-between' style={{ background: 'transparent' }}>
                                     <div>
                                         <div className='flex gap-4 pl-3 justify-between'>
                                             <div className='flex gap-4'>
@@ -253,6 +255,7 @@ const Home = () => {
                     <a href='https://Stasha.academy' className='part10-but self-center'>Get Started</a>
                 </div>
                 <div className='flex flex-col lg:flex-row gap-8'>
+                    <div className='ellipse5' style={{ left: '200px', top: '200px' }}></div>
                     <img alt='no img' src={Academy} className='block md:hidden w-1/3 self-center' />
                     <div className='flex flex-col w-full z-10'>
                         <div className='part5-title text-[25px] md:text-[45px] text-center lg:text-right'>Stasha Academy</div>
@@ -262,7 +265,7 @@ const Home = () => {
                 </div>
                 <div className='block md:hidden self-center' style={{ color: '#00ACFF' }}>Learn more</div>
                 <div className='flex md:hidden relative w-full justify-center'>
-                    <a href='https://Stasha.academy' className='part10-but self-center' style={{ fontSize: '14px' }}>Get Started</a>
+                    <a href='https://Stasha.academy' className='part10-but self-center' style={{ paddingLeft: '40px', paddingRight: '40px', fontSize: '14px' }}>Get Started</a>
                 </div>
                 <div className='part10-end hidden md:block md:absolute' style={{ bottom: '0px' }}>Learn more</div>
             </div>
@@ -293,7 +296,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='part12 flex flex-col md:flex-row relative py-12'>
-                <div className='ellipse5'></div>
+                <div className='hidden md:ellipse5'></div>
                 <div className='w-full md:w-1/3 relative'>
                     <div className='part5-title text-[25px] md:text-[45px] text-center lg:text-left'>Frequently Asked Questions</div>
                     <div className='part5-body text-center lg:text-left pb-24'>Find out all the basics about Stasha</div>
@@ -302,9 +305,10 @@ const Home = () => {
                         <div className='part12-but self-center lg:self-start'>Ask Us</div>
                     </div>
                 </div>
-                <div className='hidden md:block w-full md:w-2/3 relative'>
+                <div className='w-full md:w-2/3 relative'>
                     <div className='ellipse6'></div>
-                    <Accordion />
+                    <div className='hidden md:block'><Accordion /></div>
+                    <div className='block md:hidden'><AccordionM /></div>
                 </div>
             </div>
             <div className='part13'>

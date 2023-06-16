@@ -68,7 +68,6 @@ code {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: 22px;
 }
 
 .part1-but2 {
@@ -81,7 +80,6 @@ code {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: 22px;
 }
 
 .part4 {
@@ -306,11 +304,11 @@ code {
   align-self: center;
   padding-left: 70px;
   padding-right: 70px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   color: white;
   background-color: #00ACFF;
-  border-radius: 20px;
+  border-radius: 15px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;

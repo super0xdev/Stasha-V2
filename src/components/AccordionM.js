@@ -5,8 +5,8 @@ import { HiArrowRight } from 'react-icons/hi';
 
 import { faq } from '../global/constant';
 
-const Accordion = (props) => {
-    const [index, setIndex] = useState(0);
+const AccordionM = () => {
+    const [index, setIndex] = useState(-1);
     return (
         <div className='relative'>
             {faq.map((item, ind) => (
@@ -34,4 +34,4 @@ const Accordion = (props) => {
     )
 }
 
-export default Accordion;
+export default AccordionM;
