@@ -37,7 +37,7 @@ const Home = () => {
             <div className="part1 w-full flex flex-col lg:flex-row">
                 <div className="left1 w-full flex flex-col gap-4 pt-12 relative">
                     <div className='ellipse1'></div>
-                    <div className="part5-title relative">Unleashing the power of blockchain for a better tomorrow.</div>
+                    <div className="headers relative">Unleashing the power of blockchain for a better tomorrow.</div>
                     <div className="part5-body pt-8">Embrace a World of Infinite Possibilities in Blockchain Innovation and
                         Empowerment for a Brighter Future!</div>
                     <div className="flex flex-col w-[380px] text-center xl:w-full xl:flex-row">
@@ -107,22 +107,22 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className='part5 text-center sm:px-28 pt-16'>
-                <div className='part5-title'>Building Blockchain Infrastructures</div>
+            <div className='part5 text-center sm:px-28 pt-16 relative'>
+                <div className='headers'>Building Blockchain Infrastructures</div>
                 <div className='pb-12'>
                     <div className='part5-body'>At Stasha, we are building a world-class blockchain infrastructure and solution company that is poised to revolutionize the way businesses and individuals use this powerful technology.</div>
                 </div>
                 <div className='flex flex-col items-center pb-12'>
-                    <div className='flex items-center place-content-center pb-4'>Need help? <HiOutlineInformationCircle style={{ color: '#00ACFF' }} /></div>
+                    <div className='flex items-center place-content-center pb-4 gap-2'>Need help? <HiOutlineInformationCircle style={{ color: '#00ACFF' }} /></div>
                     <div className='part5-but'>Start Building</div>
                 </div>
             </div>
             <div className='part6 text-center'>
-                <div className='part5-title'>Stasha Ecosystem</div>
+                <div className='headers'>Stasha Ecosystem</div>
                 <div className='pb-6 relative'>
                     <div className='ellipse3'></div>
                     <div className='ellipse4'></div>
-                    <div className='part5-body pb-12'>Start to explore a wide variety of Decentralized applications brought to you by Stasha.</div>
+                    <div className='part5-body pb-12 relative'>Start to explore a wide variety of Decentralized applications brought to you by Stasha.</div>
                     <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-x-6 gap-y-12 relative'>
                         {
                             ecosystem.map((item, id) => (
@@ -147,7 +147,7 @@ const Home = () => {
             </div>
             <div className='part7 myborder flex flex-col xl:flex-row pb-12'>
                 <div className='w-full text-center xl:text-left xl:w-1/2'>
-                    <div className='part5-title'>Opportunities for You</div>
+                    <div className='headers'>Opportunities for You</div>
                     <div className='part5-body'>An ecosystem full of potential for innovative solutions.</div>
                 </div>
                 <div className='w-full place-content-center xl:w-1/2 flex gap-8 flex-col sm:flex-row'>
@@ -157,7 +157,7 @@ const Home = () => {
             </div>
             <div className='part8 flex flex-col relative xl:flex-row gap-4'>
                 <div className='w-full xl:w-1/2'>
-                    <div className='part5-title text-center xl:text-left'>Stasha Coin $STC</div>
+                    <div className='headers text-center xl:text-left'>Stasha Coin $STC</div>
                     <div className='part5-body text-center xl:text-left pb-6'>Stasha Coin is a revolutionary digital currency built on the robust foundations of Binance Smartchain.</div>
                     <div className='flex gap-4 flex-col sm:flex-row'>
                         <div className='part8-but'>
