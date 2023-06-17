@@ -63,37 +63,37 @@ const Home = () => {
             </div> */}
             <div className='relative'>
                 <div className='rectangle1 absolute'></div>
-                <div className='part3 w-full gap-1 md:gap-8 pb-8 mo:pb-24 grid grid-cols-2 xl:grid-cols-4 relative'>
+                <div className='part3 w-full gap-1 md:gap-8 mo:pb-32 grid grid-cols-2 xl:grid-cols-4 relative'>
                     <div>
-                        <div className='myborder text-center md:text-left pb-2 text-[6px] mo:text-[8px] md:text-[14px]'>Join the thriving Stasha community today and be a part of this exciting journey. </div>
+                        <div className='myborder flex items-center h-[30px] md:h-[50px] text-center md:text-left pb-2 text-[6px] mo:text-[8px] md:text-[14px]'>Join the thriving Stasha community today and be a part of this exciting journey. </div>
                         <div className='card flex-col'>
                             <div className='text-[8px] mo:text-[12px] md:text[16px] justify-center'>Total Users</div>
                             <img alt='no img' src={User} />
                         </div>
                     </div>
                     <div>
-                        <div className='myborder text-center md:text-left text-[6px] mo:text-[8px] md:text-[14px] pb-2'>Revolutionizing the way decentralized systems operate.</div>
+                        <div className='myborder flex items-center h-[30px] md:h-[50px] text-center md:text-left text-[6px] mo:text-[8px] md:text-[14px] pb-2'>Revolutionizing the way decentralized systems operate.</div>
                         <div className='card text-[8px] mo:text-[12px] md:text-[16px] place-content-center'>
                             <img alt='no img' className='w-[24px] mo:w-[30px] md:w-[48px]' src={Tech} />
                             Our Technology
                         </div>
                     </div>
                     <div>
-                        <div className='myborder text-center md:text-left text-[6px] mo:text-[8px] md:text-[14px] pb-2'>Ensuring cost-effective and efficient blockchain transactions. </div>
+                        <div className='myborder flex items-center h-[30px] md:h-[50px] text-center md:text-left text-[6px] mo:text-[8px] md:text-[14px] pb-2'>Ensuring cost-effective and efficient blockchain transactions. </div>
                         <div className='card text-[8px] mo:text-[12px] md:text-[16px] flex-col'>
                             Avg. transaction fee
                             <img alt='no img' src={Fee} />
                         </div>
                     </div>
                     <div>
-                        <div className='myborder text-center md:text-left text-[6px] mo:text-[8px] md:text-[14px]  pb-2'>With cutting-edge encryption, advanced authentication, and secure key management. </div>
+                        <div className='myborder flex items-center h-[30px] md:h-[50px] text-center md:text-left text-[6px] mo:text-[8px] md:text-[14px]  pb-2'>With cutting-edge encryption, advanced authentication, and secure key management. </div>
                         <div className='card text-[8px] mo:text-[12px] md:text-[16px] place-content-center'>
                             <img alt='no img' className='w-[30px] md:w-[48px]' src={Sec} />
                             Our Security
                         </div>
                     </div>
                 </div>
-                <div className='part4 w-full flex flex-col xl:flex-row relative pt-12 pb:pb-12'>
+                <div className='part4 w-full flex flex-col xl:flex-row relative md:py-12'>
                     <div className='block md:hidden w-full px-4'>
                         <div className='text-center'>
                             <span className='part4-stasha text-[25px]'>Stasha</span>

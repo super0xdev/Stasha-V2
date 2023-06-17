@@ -2,6 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js,tsx}"],
   theme: {
+    extend: {
+      lineHeight: {
+        '30': '30px',
+        '50': '50px',
+      }
+    },
     screens: {
       'mo': '425px',
       'sm': '640px',
