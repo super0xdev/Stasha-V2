@@ -525,3 +525,12 @@ code {
   background: rgba(0, 172, 255, 0.19);
   filter: blur(250px);
 }
+
+.rectangle3 {
+  position: absolute;
+  width: 436px;
+  height: 627px;
+
+  background: rgba(0, 172, 255, 0.2);
+  filter: blur(250px);
+}

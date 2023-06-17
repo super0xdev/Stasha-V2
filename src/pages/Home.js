@@ -63,7 +63,7 @@ const Home = () => {
             </div> */}
             <div className='relative'>
                 <div className='rectangle1 absolute'></div>
-                <div className='part3 w-full gap-1 md:gap-8 mo:pb-32 grid grid-cols-2 xl:grid-cols-4 relative'>
+                <div className='part3 w-full gap-1 md:gap-8 pb-8 md:pb-32 grid grid-cols-2 xl:grid-cols-4 relative'>
                     <div>
                         <div className='myborder flex items-center h-[30px] md:h-[50px] text-center md:text-left pb-2 text-[6px] mo:text-[8px] md:text-[14px]'>Join the thriving Stasha community today and be a part of this exciting journey. </div>
                         <div className='card flex-col'>
@@ -161,6 +161,7 @@ const Home = () => {
             <div className='part6 text-center'>
                 <div className='headers text-[25px] md:text-[45px]'>Stasha Ecosystem</div>
                 <div className='pb-6 relative'>
+                    <div className='md:hidden rectangle3'></div>
                     <div className='hidden md:block ellipse3'></div>
                     <div className='hidden md:block ellipse4'></div>
                     <div className='absolute' style={{ background: 'rgba(0, 172, 255, 0.2)', filter: 'blur(250px)', width: '450px', height: '650px' }}></div>
