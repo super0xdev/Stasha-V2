@@ -38,13 +38,14 @@ const Home = () => {
             <div className="part1 w-full flex flex-col">
                 <div className="left1 w-full flex flex-col md:flex-row pt-12 relative">
                     <div className='flex flex-col'>
-                        <div className='block md:ellipse1'></div>
+                        <div className='md:block hidden ellipse1'></div>
                         <div className="headers text-center text-[25px] md:text-left md:text-[45px] relative">Unleashing the power of blockchain for a better tomorrow</div>
                         <div className="part5-body text-center sm:text-left text-[12px] sm:text-[23px] sm:pt-8">Embrace a World of Infinite Possibilities in Blockchain Innovation and
                             Empowerment for a Brighter Future!</div>
                     </div>
                     <div className='right1 relative self-center w-[60%]'>
-                        <div className='ellipse2' style={{ left: '-150px', bottom: '-70px' }}></div>
+                        <div className='ellipse2 md:hidden' style={{ left: '-150px', bottom: '-70px' }}></div>
+                        <div className='hidden md:block ellipse2' style={{ left: '400px', top: '260px' }}></div>
                         <img alt='no img' src={ROT} className='relative md:top-[-150px] md:absolute' />
                     </div>
                 </div>
@@ -62,32 +63,32 @@ const Home = () => {
             </div> */}
             <div className='relative'>
                 <div className='rectangle1 absolute'></div>
-                <div className='part3 w-full gap-8 pb-24 grid grid-cols-2 xl:grid-cols-4 relative'>
+                <div className='part3 w-full gap-1 md:gap-8 pb-8 mo:pb-24 grid grid-cols-2 xl:grid-cols-4 relative'>
                     <div>
-                        <div className='myborder text-center md:text-left pb-2 text-[8px] md:text-[14px]'>Join the thriving Stasha community today and be a part of this exciting journey. </div>
+                        <div className='myborder text-center md:text-left pb-2 text-[6px] mo:text-[8px] md:text-[14px]'>Join the thriving Stasha community today and be a part of this exciting journey. </div>
                         <div className='card flex-col'>
-                            <div className='text-[12px] md:text[16px] justify-center'>Total Users</div>
+                            <div className='text-[8px] mo:text-[12px] md:text[16px] justify-center'>Total Users</div>
                             <img alt='no img' src={User} />
                         </div>
                     </div>
                     <div>
-                        <div className='myborder text-center md:text-left text-[8px] md:text-[14px] pb-2'>Revolutionizing the way decentralized systems operate.</div>
-                        <div className='card text-[12px] md:text-[16px] place-content-center'>
-                            <img alt='no img' className='w-[30px] md:w-[48px]' src={Tech} />
+                        <div className='myborder text-center md:text-left text-[6px] mo:text-[8px] md:text-[14px] pb-2'>Revolutionizing the way decentralized systems operate.</div>
+                        <div className='card text-[8px] mo:text-[12px] md:text-[16px] place-content-center'>
+                            <img alt='no img' className='w-[24px] mo:w-[30px] md:w-[48px]' src={Tech} />
                             Our Technology
                         </div>
                     </div>
                     <div>
-                        <div className='myborder text-center md:text-left text-[8px] md:text-[14px] pb-2'>Ensuring cost-effective and efficient blockchain transactions. </div>
-                        <div className='card text-[12px] md:text-[16px] flex-col'>
+                        <div className='myborder text-center md:text-left text-[6px] mo:text-[8px] md:text-[14px] pb-2'>Ensuring cost-effective and efficient blockchain transactions. </div>
+                        <div className='card text-[8px] mo:text-[12px] md:text-[16px] flex-col'>
                             Avg. transaction fee
                             <img alt='no img' src={Fee} />
                         </div>
                     </div>
                     <div>
-                        <div className='myborder text-center md:text-left text-[8px] md:text-[14px]  pb-2'>With cutting-edge encryption, advanced authentication, and secure key management. </div>
-                        <div className='card text-[12px] md:text-[16px] place-content-center'>
-                            <img alt='no img' src={Sec} />
+                        <div className='myborder text-center md:text-left text-[6px] mo:text-[8px] md:text-[14px]  pb-2'>With cutting-edge encryption, advanced authentication, and secure key management. </div>
+                        <div className='card text-[8px] mo:text-[12px] md:text-[16px] place-content-center'>
+                            <img alt='no img' className='w-[30px] md:w-[48px]' src={Sec} />
                             Our Security
                         </div>
                     </div>
@@ -147,26 +148,27 @@ const Home = () => {
             </div>
 
             <div className='part5 text-center sm:px-28 pt-16 relative'>
-                <div className='headers px-12 md:px-0 text-[25px] md:text-[45px]'>Building Blockchain Infrastructures</div>
+                <div className='headers px-12 md:px-0 text-[20px] mo:text-[25px] md:text-[45px]'>Building Blockchain Infrastructures</div>
                 <div className='pb-12'>
                     <div className='part5-body text-[12px] md:text-[20px]'>At Stasha, we are building a world-class blockchain infrastructure and solution company that is poised to revolutionize the way businesses and individuals use this powerful technology.</div>
                 </div>
                 <div className='flex flex-col items-center pb-12'>
-                    <div className='flex items-center place-content-center pb-4 gap-2'>Need help? <HiOutlineInformationCircle style={{ color: '#00ACFF' }} /></div>
-                    <div className='part5-but'>Start Building</div>
+                    <div className='flex items-center place-content-center pb-4 gap-2 text-[10px] mo:text-[14px]'>Need help? <HiOutlineInformationCircle style={{ color: '#00ACFF' }} /></div>
+                    <div className='hidden md:block part5-but'>Start Building</div>
+                    <div className='md:hidden part5-but' style={{ paddingLeft: '15px', paddingRight: '15px', fontSize: '14px' }}>Start Building</div>
                 </div>
             </div>
             <div className='part6 text-center'>
                 <div className='headers text-[25px] md:text-[45px]'>Stasha Ecosystem</div>
                 <div className='pb-6 relative'>
-                    <div className='hidden md:ellipse3'></div>
-                    <div className='hidden md:ellipse4'></div>
+                    <div className='hidden md:block ellipse3'></div>
+                    <div className='hidden md:block ellipse4'></div>
                     <div className='absolute' style={{ background: 'rgba(0, 172, 255, 0.2)', filter: 'blur(250px)', width: '450px', height: '650px' }}></div>
                     <div className='part5-body pb-12 relative'>Start to explore a wide variety of Decentralized applications brought to you by Stasha.</div>
                     <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-x-6 gap-y-0 md:gap-y-12 relative'>
                         {
                             ecosystem.map((item, id) => (
-                                <div className='part6-item flex flex-col relative justify-between' style={{ background: 'transparent' }}>
+                                <div className='part6-item flex flex-col relative justify-between'>
                                     <div>
                                         <div className='flex gap-4 pl-3 justify-between'>
                                             <div className='flex gap-4'>
@@ -195,15 +197,19 @@ const Home = () => {
                     <div className='headers text-[25px] md:text-[45px]'>Opportunities for You</div>
                     <div className='part5-body text-[12px] md:text-[23px]'>An ecosystem full of potential for innovative solutions.</div>
                 </div>
-                <div className='w-full xl:w-1/2 place-content-center flex gap-4 flex-row'>
+                <div className='hidden md:flex w-full xl:w-1/2 place-content-center gap-4 flex-row'>
                     <div className='part7-left text-[14px] md:text-[22px]'>Launch Project</div>
                     <div className='part7-right text-[14px] md:text-[22px]'>Explore Ecosystem</div>
+                </div>
+                <div className='mo:hidden flex flex-row gap-2 place-content-center'>
+                    <div className='part7-left text-[10px]' style={{ paddingLeft: '15px', paddingRight: '15px', paddingTop: '10px', paddingBottom: '10px' }}>Launch Project</div>
+                    <div className='part7-right text-[10px]' style={{ paddingLeft: '15px', paddingRight: '15px', paddingTop: '10px', paddingBottom: '10px' }}>Explore Ecosystem</div>
                 </div>
             </div>
             <div className='part8 flex flex-col relative xl:flex-row gap-4'>
                 <div className='w-full xl:w-1/2'>
                     <div className='headers text-[25px] md:text-[45px] text-center xl:text-left'>Stasha Coin $STC</div>
-                    <div className='part5-body text-center xl:text-left pb-6'>Stasha Coin is a revolutionary digital currency built on the robust foundations of Binance Smartchain.</div>
+                    <div className='part5-body text-center text-[10px] mo:text-[14px] xl:text-left pb-6'>Stasha Coin is a revolutionary digital currency built on the robust foundations of Binance Smartchain.</div>
                     <div className='hidden xl:justify-start md:justify-center md:flex gap-4 flex-col sm:flex-row'>
                         <div className='part8-but'>
                             <div className='part8-but-head text-[14px]'>Current Sale Price</div>
@@ -241,7 +247,7 @@ const Home = () => {
                     <div className='part9-head pb-2 text-[18px] mo:text-[25px] md:text-[45px] text-center md:text-left'>Accept crypto payments globally with StashaPay</div>
                     <div className='part9-body pr-4 pb-8 text-[10px] mo:text-[12px] md:text-[18px] text-center md:text-left'>Enjoy bordeless payments with Stasha Pay. Our solutionis user friendly, fast and secure.</div>
                     <div className='cursor-pointer justify-center md:justify-start part9-footer flex items-center gap-4'>
-                        <div>Get Started</div>
+                        <div className='text-[18px] md:text-[25px]'>Get Started</div>
                         <HiArrowRight className='hidden md:block' />
                     </div>
                 </div>
@@ -249,8 +255,8 @@ const Home = () => {
                     <div className='flex relative w-full h-56 sm:w-5/6 lg:w-full'>
                         <img alt='no img' src={ComR} className='hidden mo:block absolute w-2/3 md:w-2/3' style={{ right: '0px' }} />
                         <img alt='no img' src={ComL} className='hidden mo:block absolute w-2/3 md:w-1/2' style={{ left: '-20px', top: '80px' }} />
-                        <img alt='no img' src={ComR} className='absolute mo:hidden' style={{ right: '0px', width: '220px' }} />
-                        <img alt='no img' src={ComL} className='absolute mo:hidden' style={{ left: '20px', top: '60px', width: '160px' }} />
+                        <img alt='no img' src={ComR} className='absolute mo:hidden' style={{ right: '-10px', width: '160px' }} />
+                        <img alt='no img' src={ComL} className='absolute mo:hidden' style={{ left: '0px', top: '60px', width: '120px' }} />
                     </div>
                 </div>
             </div>
@@ -259,8 +265,8 @@ const Home = () => {
                 <div className='hidden md:flex relative w-full lg:w-1/2 justify-center lg:justify-start'>
                     <a href='https://Stasha.academy' className='part10-but self-center'>Get Started</a>
                 </div>
-                <div className='flex flex-col lg:flex-row gap-8'>
-                    <div className='ellipse5' style={{ left: '200px', top: '200px' }}></div>
+                <div className='flex flex-col lg:flex-row gap-8 relative'>
+                    {/* <div className='ellipse5' style={{ left: '200px', top: '200px' }}></div> */}
                     <img alt='no img' src={Academy} className='block md:hidden w-1/3 self-center' />
                     <div className='flex flex-col w-full z-10'>
                         <div className='part5-title text-[25px] md:text-[45px] text-center lg:text-right'>Stasha Academy</div>
@@ -268,6 +274,7 @@ const Home = () => {
                     </div>
                     <img alt='no img' src={Academy} className='hidden md:block w-1/6 self-center' />
                 </div>
+                <div className='md:hidden ellipse7' style={{ right: '-100px', top: '100px' }}></div>
                 <div className='block md:hidden self-center' style={{ color: '#00ACFF' }}>Learn more</div>
                 <div className='flex md:hidden relative w-full justify-center'>
                     <a href='https://Stasha.academy' className='part10-but self-center' style={{ paddingLeft: '40px', paddingRight: '40px', fontSize: '14px' }}>Get Started</a>
@@ -301,7 +308,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='part12 flex flex-col md:flex-row relative py-12'>
-                <div className='hidden md:ellipse5'></div>
+                <div className='ellipse5'></div>
                 <div className='w-full md:w-1/3 relative pb-4 md:pb-0'>
                     <div className='part5-title text-[25px] md:text-[45px] text-center lg:text-left'>Frequently Asked Questions</div>
                     <div className='part5-body text-center lg:text-left pb-6 md:pb-24'>Find out all the basics about Stasha</div>

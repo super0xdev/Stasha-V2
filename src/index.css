@@ -186,7 +186,7 @@ code {
   font-family: 'Fredoka';
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .part6-item-body {
@@ -208,8 +208,8 @@ code {
 .part7-left {
   cursor: pointer;
   align-self: center;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
   padding-top: 20px;
   padding-bottom: 20px;
   color: white;
@@ -497,6 +497,15 @@ code {
   top: 200px;
 
   background: rgba(0, 172, 255, 0.24);
+  filter: blur(100px);
+}
+
+.ellipse7 {
+  position: absolute;
+  width: 351px;
+  height: 326px;
+
+  background: rgba(46, 200, 210, 0.36);
   filter: blur(100px);
 }
 
