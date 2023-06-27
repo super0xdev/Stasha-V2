@@ -201,7 +201,7 @@ const Home = () => {
                 </div>
                 <div className='hidden md:flex w-full xl:w-1/2 place-content-center gap-4 flex-row'>
                     <div className='part7-left text-[14px] md:text-[22px]'>Launch Project</div>
-                    <div className='part7-right text-[14px] md:text-[22px]'>Explore Ecosystem</div>
+                    <Link to='/ecosystem' className='part7-right text-[14px] md:text-[22px]'>Explore Ecosystem</Link>
                 </div>
                 <div className='mo:hidden flex flex-row gap-2 place-content-center'>
                     <div className='part7-left text-[10px]' style={{ paddingLeft: '15px', paddingRight: '15px', paddingTop: '10px', paddingBottom: '10px' }}>Launch Project</div>
