@@ -2,6 +2,7 @@ import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import { HiOutlineInformationCircle, HiArrowRight } from 'react-icons/hi';
 import { FaFacebookF, FaTelegramPlane, FaTwitter } from 'react-icons/fa';
 import { AiFillInstagram } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 
 import Accordion from '../components/Accordion';
 import AccordionM from '../components/AccordionM';
@@ -51,7 +52,7 @@ const Home = () => {
                 </div>
                 <div className="flex md:gap-4 flex-col md:w-full self-center text-center md:flex-row pt-0 md:pt-8 relative md:pb-12">
                     <div className='md:hidden flex part1-but2 text-[14px] gap-1'>Get Started with Building<MdOutlineKeyboardArrowRight className='text-xl' /></div>
-                    <div className='part1-but text-[14px] mx-2 md:text-[22px] md:px-12'>Explore Ecosystem</div>
+                    <Link to='/ecosystem' className='part1-but text-[14px] mx-2 md:text-[22px] md:px-12'>Explore Ecosystem</Link>
                     <div className='hidden md:flex part1-but2 md:px-12'>Get Started with Building<MdOutlineKeyboardArrowRight /></div>
                 </div>
             </div>
