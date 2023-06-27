@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { FaFacebookF, FaTelegramPlane, FaTwitter } from 'react-icons/fa';
 import { AiFillInstagram } from 'react-icons/ai';
 
@@ -42,12 +43,13 @@ const Navbar = () => {
                             <div className="header-font block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:p-0" aria-current="page">Home</div>
                         </li>
                         <li>
-                            <button onClick={() => showMenu()} id="button" className="header-font flex items-center justify-between w-full py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto">Ecosystem
+                            {/* <button onClick={() => showMenu()} id="button" className="header-font flex items-center justify-between w-full py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto">Ecosystem */}
+                            <Link to='/ecosystem' id="button" className="header-font flex items-center justify-between w-full py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto">Ecosystem
                                 <svg className="w-5 h-5 ml-1" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                     <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd">
                                     </path>
                                 </svg>
-                            </button>
+                            </Link>
 
                             <div className={`${visible === false ? 'hidden' : 'block'} font-normal absolute z-10 bg-white divide-y divide-gray-100 rounded-lg shadow w-44`}>
                                 <ul className="py-2 text-sm text-gray-700" aria-labelledby="dropdownLargeButton">

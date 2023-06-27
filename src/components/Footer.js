@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { FaFacebookF, FaTelegramPlane, FaTwitter } from 'react-icons/fa';
 import { AiFillInstagram } from 'react-icons/ai';
 
@@ -93,7 +94,7 @@ const Footer = () => {
                                         <div>Terms of Use</div>
                                     </li>
                                     <li>
-                                        <div>Privacy Policy</div>
+                                        <Link to='/policy'>Privacy Policy</Link>
                                     </li>
                                     <li>
                                         <div>Contact Us</div>

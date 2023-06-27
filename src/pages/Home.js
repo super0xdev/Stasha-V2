@@ -342,7 +342,7 @@ const Home = () => {
             <div className='flex flex-col md:flex-row self-center gap-4 pb-20'>
                 <input className='hidden md:block part14-input' placeholder='Enter Email' />
                 <div className='hidden md:block part1-but px-12 text-center'>Subscribe</div>
-                <div className='part1-but px-24 text-center' style={{ background: '#3333333B' }}>Subscribe</div>
+                <div className='part1-but md:hidden px-24 text-center' style={{ background: '#3333333B' }}>Subscribe</div>
             </div>
         </div>
     );

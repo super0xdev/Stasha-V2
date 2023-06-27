@@ -1,14 +1,28 @@
+import { Routes, Route, BrowserRouter } from 'react-router-dom'
 import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
 import Footer from "./components/Footer";
+
+import Home from "./pages/Home";
+import Ecosystem from './pages/Ecosystem';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import Contact from './pages/Contact';
+import About from './pages/About';
 
 function App() {
   return (
     <div className="flex justify-center w-full whole overflow-hidden">
       <div className="App text-white">
-        <Navbar />
-        <Home />
-        <Footer />
+        <BrowserRouter>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path='/ecosystem' element={<Ecosystem />} />
+            <Route path='/policy' element={<PrivacyPolicy />} />
+            <Route path='/contact' element={<Contact />} />
+            <Route path='/about' element={<About />} />
+          </Routes>
+          <Footer />
+        </BrowserRouter>
       </div>
     </div>
   );
