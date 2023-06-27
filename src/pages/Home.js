@@ -295,7 +295,7 @@ const Home = () => {
                 <div className='flex md:hidden relative w-full justify-center'>
                     <a href='https://dictionary.stasha.io' className='part10-but self-center' style={{ fontSize: '14px', paddingLeft: '40px', paddingRight: '40px' }}>View Dictionary</a>
                 </div>
-                <div className='part10-end md:absolute hidden md:flex items-center gap-2 lg:right-0 bottom-0'>Learn more<HiArrowRight /></div>
+                <a href='https://dictionary.stasha.io' className='part10-end md:absolute hidden md:flex items-center gap-2 lg:right-0 bottom-0'>Learn more<HiArrowRight /></a>
             </div>
             <div className='part11 flex flex-col sm:flex-row'>
                 <div className='w-full sm:w-2/3'>
@@ -333,7 +333,7 @@ const Home = () => {
                     <img alt='no img' src={Marketwatch} />
                     <img alt='no img' src={Bloomberg} />
                     <img alt='no img' src={Techbullion} />
-                    <img alt='no img' src={Nasdaq} className='place-self-center col-span-2' />
+                    <img alt='no img' src={Nasdaq} className='place-self-center col-span-2 sm:col-span-1' />
                 </div>
             </div>
             <div className='part14'>
