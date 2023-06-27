@@ -32,7 +32,7 @@ const Navbar = () => {
                     <span className="fredoka self-center text-2xl md:text-4xl whitespace-nowrapn">Stasha</span>
                 </div>
                 <div className="relative md:hidden ml-auto">
-                    <button type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 " aria-controls="navbar-dropdown" aria-expanded="false">
+                    <button type="button" onClick={toggleMenu} className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 " aria-controls="navbar-dropdown" aria-expanded="false">
                         <span className="sr-only">Open main menu</span>
                         <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd"></path></svg>
                     </button>
@@ -88,9 +88,9 @@ const Navbar = () => {
                 </div>
 
             </div>
-            <div className={`${flag === false ? 'hidden' : 'w-full'} bg-black`}>
-                <div className="header-font rounded-md cursor-pointer px-12 py-3 text-gray-300 hover:bg-gray-700 hover:text-white">Home</div>
-                <div className="header-font rounded-md cursor-pointer px-12 py-3 text-gray-300 hover:bg-gray-700 hover:text-white">Ecosystem</div>
+            <div className={`${flag === false ? 'hidden' : 'w-full flex flex-col'} bg-black`}>
+                <Link to='/' className="header-font rounded-md cursor-pointer px-12 py-3 text-gray-300 hover:bg-gray-700 hover:text-white">Home</Link>
+                <Link to='/ecosystem' className="header-font rounded-md cursor-pointer px-12 py-3 text-gray-300 hover:bg-gray-700 hover:text-white">Ecosystem</Link>
                 <div className="header-font rounded-md cursor-pointer px-12 py-3 text-gray-300 hover:bg-gray-700 hover:text-white">Community</div>
             </div>
         </nav>
