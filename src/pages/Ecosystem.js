@@ -1,21 +1,6 @@
-import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
-import { HiOutlineInformationCircle, HiArrowRight } from 'react-icons/hi';
-import { FaFacebookF, FaTelegramPlane, FaTwitter } from 'react-icons/fa';
-import { AiFillInstagram } from 'react-icons/ai';
+import { HiArrowRight } from 'react-icons/hi';
 
 import ROT from '../images/ROT1.gif';
-import Right1 from '../images/stc-right1.png';
-import Right2 from '../images/stc-right2.png';
-import Right3 from '../images/stc-right3.png';
-import ComL from '../images/ComL.png';
-import ComR from '../images/ComR.png';
-import Academy from '../images/academy.png';
-import Books from '../images/books.png';
-import Yahoo from '../images/yahoo.png';
-import Marketwatch from '../images/marketwatch.png';
-import Bloomberg from '../images/bloomberg.png';
-import Techbullion from '../images/techbullion.png';
-import Nasdaq from '../images/nasdaq.png';
 import Wallet1 from '../images/wallet1.png';
 import Wallet2 from '../images/wallet2.png';
 import Wallet3 from '../images/wallet3.png';

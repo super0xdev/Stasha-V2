@@ -6,7 +6,7 @@ const PrivacyPolicy = () => {
                 <span className="text-gray-600">Home /&nbsp;</span>
                 <span className="text-[45px]">Privacy Policy</span>
             </div>
-            <div className="text-center text-gray-600" style={{ fontFamily: 'Roboto' }}>Effective Date: June 22nd, 2023e</div>
+            <div className="text-center text-gray-600" style={{ fontFamily: 'Roboto' }}>Effective Date: June 22nd, 2023</div>
             <div className="mx-8 py-6" style={{ borderTop: 'solid 1px gray' }}>
                 <div className="text-[45px]" style={{ fontFamily: 'Fredoka' }}>Introduction</div>
                 <div className="text-gray-400 text-[20px]" style={{ fontFamily: 'Roboto' }}>Welcome to the privacy policy for the Stasha Blockchain Ecosystem ("Stasha," "we," or "us"). This privacy policy outlines how we collect, use, disclose, and protect the information of users who interact with our blockchain ecosystem, including our website, applications, products, and services. We are committed to safeguarding your privacy and ensuring the security of your personal information.</div>

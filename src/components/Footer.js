@@ -57,7 +57,7 @@ const Footer = () => {
                                 <h2 className="footer-title mb-6">Quick Links</h2>
                                 <ul className="footer-body flex flex-col gap-4">
                                     <li>
-                                        <div>About Us</div>
+                                        <Link to='/about'>About Us</Link>
                                     </li>
                                     <li>
                                         <div>Partners</div>
@@ -97,7 +97,7 @@ const Footer = () => {
                                         <Link to='/policy'>Privacy Policy</Link>
                                     </li>
                                     <li>
-                                        <div>Contact Us</div>
+                                        <Link to='/contact'>Contact Us</Link>
                                     </li>
                                 </ul>
                             </div>
