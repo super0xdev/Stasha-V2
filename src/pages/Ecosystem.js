@@ -4,14 +4,18 @@ import ROT from '../images/ROT1.gif';
 import Wallet1 from '../images/wallet1.png';
 import Wallet2 from '../images/wallet2.png';
 import Wallet3 from '../images/wallet3.png';
+import Cloud from '../images/cloud.svg';
 
 import { real_ecosystem } from '../global/constant';
 
 const Ecosystem = () => {
     return (
-        <div className='flex flex-col gap-10 sm:mt-12 md:mt-0 px-6'>
-            <div className="part1 w-full flex flex-col">
-                <img alt='no img' src={ROT} className='relative w-1/2 self-center' />
+        <div className='flex flex-col gap-10 sm:mt-12 md:mt-0 px-6 relative'>
+            <img alt='no img' src={Cloud} />
+            <div className="part1 w-full flex flex-col absolute overflow-hidden top-0">
+                <div className='relative flex justify-center'>
+                    <img alt='no img' src={ROT} className='relative w-1/2 self-center' />
+                </div>
             </div>
             <div className='part6 text-left'>
                 <div className='headers text-[25px] text-center md:text-left md:text-[45px]'>Stasha Ecosystem:<br />Empowering the Future of Digital Assets</div>
