@@ -27,10 +27,10 @@ const Navbar = () => {
     return (
         <nav className="p-3">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4 gap-2">
-                <div className="flex items-center sm:w-12">
+                <Link to="/" className="flex items-center sm:w-12">
                     <img alt='no img' src="./logo.png" className="w-6 md:w-full mr-3" />
                     <span className="fredoka self-center text-2xl md:text-4xl whitespace-nowrapn">Stasha</span>
-                </div>
+                </Link>
                 <div className="relative md:hidden ml-auto">
                     <button type="button" onClick={toggleMenu} className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 " aria-controls="navbar-dropdown" aria-expanded="false">
                         <span className="sr-only">Open main menu</span>

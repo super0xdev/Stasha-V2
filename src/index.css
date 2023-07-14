@@ -208,8 +208,8 @@ code {
 .part7-left {
   cursor: pointer;
   align-self: center;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
   color: white;

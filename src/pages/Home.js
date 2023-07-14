@@ -203,7 +203,7 @@ const Home = () => {
                     <div className='part7-left text-[14px] md:text-[22px]'>Launch Project</div>
                     <Link to='/ecosystem' className='part7-right text-[14px] md:text-[22px]'>Explore Ecosystem</Link>
                 </div>
-                <div className='mo:hidden flex flex-row gap-2 place-content-center'>
+                <div className='md:hidden flex flex-row gap-2 place-content-center'>
                     <div className='part7-left text-[10px]' style={{ paddingLeft: '15px', paddingRight: '15px', paddingTop: '10px', paddingBottom: '10px' }}>Launch Project</div>
                     <div className='part7-right text-[10px]' style={{ paddingLeft: '15px', paddingRight: '15px', paddingTop: '10px', paddingBottom: '10px' }}>Explore Ecosystem</div>
                 </div>
@@ -294,6 +294,9 @@ const Home = () => {
                 <div className='block md:hidden self-center pb-8' style={{ color: '#00ACFF' }}>Learn more</div>
                 <div className='flex md:hidden relative w-full justify-center'>
                     <a href='https://dictionary.stasha.io' className='part10-but self-center' style={{ fontSize: '14px', paddingLeft: '40px', paddingRight: '40px' }}>View Dictionary</a>
+                </div>
+                <div className='hidden md:flex relative w-full lg:w-1/2 justify-center lg:justify-end'>
+                    <a href='https://dictionary.stasha.io' className='part10-but self-center' style={{ paddingLeft: '40px', paddingRight: '40px' }}>View Dictionary</a>
                 </div>
                 <a href='https://dictionary.stasha.io' className='part10-end md:absolute hidden md:flex items-center gap-2 lg:right-0 bottom-0'>Learn more<HiArrowRight /></a>
             </div>
