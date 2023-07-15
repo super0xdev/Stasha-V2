@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 
 import Accordion from '../components/Accordion';
 import AccordionM from '../components/AccordionM';
+import { faq } from '../global/constant';
 
 import ROT from '../images/ROT1.gif';
 import User from '../images/user.png';
@@ -325,8 +326,8 @@ const Home = () => {
                 </div>
                 <div className='w-full md:w-2/3 relative'>
                     <div className='hidden md:ellipse6'></div>
-                    <div className='hidden md:block'><Accordion /></div>
-                    <div className='block md:hidden'><AccordionM /></div>
+                    <div className='hidden md:block'><Accordion data={faq} showReadMore={true} /></div>
+                    <div className='block md:hidden'><AccordionM data={faq} showReadMore={true} /></div>
                 </div>
             </div>
             <div className='part13'>

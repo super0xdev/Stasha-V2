@@ -7,6 +7,7 @@ import Ecosystem from './pages/Ecosystem';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import Contact from './pages/Contact';
 import About from './pages/About';
+import Ambadassor from './pages/Ambadassor';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <BrowserRouter>
           <Navbar />
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Ambadassor />} />
             <Route path='/ecosystem' element={<Ecosystem />} />
             <Route path='/policy' element={<PrivacyPolicy />} />
             <Route path='/contact' element={<Contact />} />

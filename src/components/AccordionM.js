@@ -3,13 +3,11 @@ import React from 'react';
 import { useState } from 'react';
 import { HiArrowRight } from 'react-icons/hi';
 
-import { faq } from '../global/constant';
-
-const AccordionM = () => {
+const AccordionM = (props) => {
     const [index, setIndex] = useState(-1);
     return (
         <div className='relative'>
-            {faq.map((item, ind) => (
+            {props.data.map((item, ind) => (
                 <div>
                     <h2>
                         <div onClick={() => setIndex(ind)} className="myborder flex items-center cursor-pointer justify-between w-full py-5 font-medium text-left text-gray-500 focus:ring-4 focus:ring-gray-200">
@@ -25,7 +23,7 @@ const AccordionM = () => {
                                     {text}
                                 </React.Fragment>
                             ))}
-                            <span style={{ paddingLeft: '10px', color: '#00ACFF' }}>Read more</span>
+                            {props.showReadMore && <span style={{ paddingLeft: '10px', color: '#00ACFF' }}>Read more</span>}
                         </div>
                     </div>
                 </div>

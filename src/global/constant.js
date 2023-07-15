@@ -61,6 +61,29 @@ export const faq = [
     },
 ]
 
+export const faq_ambassador = [
+    {
+        'title': 'What is Stasha Ambassaborship program?',
+        'body': "The Stasha Ambassador program enables you to be an advocate for Stasha in your local community, actively contributing to the larger vision of the project. You are empowered to take the lead in organizing virtual and in-person meetups, generating original content, expanding your network, and engaging in various other activities that support the growth of Stasha Ecosystem.",
+    },
+    {
+        'title': 'Do I get paid for this program?',
+        'body': 'Do I get paid for this program?',
+    },
+    {
+        'title': 'How can I be a part in this program?',
+        'body': 'How can I be a part in this program?',
+    },
+    {
+        'title': 'How can I get Stasha BrandKits?',
+        'body': 'How can I get Stasha BrandKits?',
+    },
+    {
+        'title': 'How can I apply for this program?',
+        'body': 'How can I apply for this program?',
+    },
+]
+
 
 export const real_ecosystem = [
     {
